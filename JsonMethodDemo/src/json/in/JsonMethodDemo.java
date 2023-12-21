@@ -36,6 +36,8 @@ public class JsonMethodDemo {
 		System.out.println(str);
 		JSONObject obj1 = (JSONObject)JSONValue.parse(str);
 		System.out.println(obj1.get("102"));
+		System.out.println();
+		
 
 	}
 
